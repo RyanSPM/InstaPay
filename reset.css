@@ -10,6 +10,18 @@ kbd,
 keygen,
 label, legend, li, 
 meter,
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table, table td { 
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical
 nav,
 object, ol, output,
 p, pre, progress,
@@ -20,7 +32,19 @@ u, ul,
 var{
     background: transparent;
     border: 0 none;
-    font-size: 100%;
+    font-size: 100
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table, table td { 
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical
     margin: 0;
 		padding: 0;
 		border: 0;
